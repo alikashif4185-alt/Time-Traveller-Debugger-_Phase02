@@ -79,3 +79,4 @@ struct TdbgReader
 };
 struct DebugSession
 {
+    int active_flag;     // false until a "start" has worked
