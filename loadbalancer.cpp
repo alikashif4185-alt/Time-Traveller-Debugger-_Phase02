@@ -10,3 +10,4 @@
 // The only messages it writes itself are errors ("server busy", "server failed to start").
 //
 // Two threads:
+//   acceptor thread (acceptLoop) -> takes new clients and puts them in the queue. It never waits for the server.
