@@ -7,3 +7,4 @@
 //      pass the string to the server, pass the server's reply back to the client.
 //
 // It does not read or understand the messages. It only moves bytes.
+// The only messages it writes itself are errors ("server busy", "server failed to start").
