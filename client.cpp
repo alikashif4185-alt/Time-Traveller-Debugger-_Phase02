@@ -438,3 +438,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     string second = secondWord(line);
     string third = thirdWord(line);
     if (first == "ttdb") {
+        first = "";
