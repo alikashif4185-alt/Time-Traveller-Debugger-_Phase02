@@ -58,3 +58,4 @@ struct Frame
     int32_t localCount;
 };
 struct Snapshot
+{
