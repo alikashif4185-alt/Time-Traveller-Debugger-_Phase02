@@ -322,3 +322,4 @@ void closeSession(DebugSession& s)
         closeTdbg(s.reader);
         s.active_flag = false;
     }
+    // If active, call closeTdbg(s.reader). Then set active = false.
