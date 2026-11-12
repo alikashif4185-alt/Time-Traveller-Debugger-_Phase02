@@ -349,3 +349,4 @@ bool showCurrent(DebugSession& s)
 }
 bool moveBy(DebugSession& s, int32_t delta)
 {
+}
