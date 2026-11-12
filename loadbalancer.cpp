@@ -76,3 +76,4 @@ public:
         while (!isEmpty()) {
             dequeue();
         }
+    }
