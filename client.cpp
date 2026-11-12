@@ -426,3 +426,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     int i = 0, j = 0;
     string first = "";
     string rem = "";
+    while (line[i] != ' ') {
