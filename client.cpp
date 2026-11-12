@@ -215,3 +215,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
 
     char buf[4096];
 
+    while (true) {
