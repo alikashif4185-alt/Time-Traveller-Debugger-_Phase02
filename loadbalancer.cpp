@@ -198,3 +198,4 @@ int connectToServer(const char* host, int port)
     // Return the socket, or -1 if the connection fails 
 }
 
+// =============================================================================================
