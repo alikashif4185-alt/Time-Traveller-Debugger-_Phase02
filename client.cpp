@@ -224,3 +224,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
         if (n < 0) {
             if (errno == EINTR)
                 continue;
+            return false;
