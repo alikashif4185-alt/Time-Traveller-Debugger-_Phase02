@@ -18,3 +18,4 @@
 //   The "&" is required. Without it, system() waits until the server exits and the load balancer freezes.
 //
 //
+// What the server program must do (the load balancer depends on this):
