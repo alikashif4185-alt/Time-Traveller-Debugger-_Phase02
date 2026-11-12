@@ -118,3 +118,4 @@ public:
 
 struct ClientInfo
 {
+    int sock;           // the connected socket
