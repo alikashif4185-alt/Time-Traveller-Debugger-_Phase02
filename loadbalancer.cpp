@@ -305,3 +305,4 @@ void dispatcherLoop()
 void handler(int sg) {
     (void)sg;
     flag = 0;
+}
