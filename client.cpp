@@ -285,3 +285,4 @@ bool openTdbg(const char* path, TdbgReader& r)
     return true;
 }
 void closeTdbg(TdbgReader& r)
+{
