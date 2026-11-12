@@ -240,3 +240,4 @@ int connectToServerWithWakeup(const char* host,int port)
 
 
 // =============================================================================================
+// PART 2: PASSING THE STRING AND THE REPLY (one client, called by the main thread only)
