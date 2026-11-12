@@ -326,3 +326,4 @@ void closeSession(DebugSession& s)
     // Called when the user types quit and when the input ends.
 }
 
+// =============================================================================================
