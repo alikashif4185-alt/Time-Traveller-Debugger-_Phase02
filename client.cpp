@@ -103,3 +103,4 @@ bool recvAll(int sock, char* buf, size_t n)
     // recv() can return fewer bytes than asked for, so keep calling it until exactly n bytes are read.
     // Return false if the connection closes or fails before n bytes arrive.
 }
+bool sendAll(int sock, const char* buf, size_t n)
