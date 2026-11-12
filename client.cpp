@@ -361,3 +361,4 @@ bool cmdStart(DebugSession& s, const string& sourcePath)
     //    set s.currentStep = 0 and s.active = true.
     // 5. Show step 1 with showCurrent(s).
 }
+bool cmdNext(DebugSession& s) {}
