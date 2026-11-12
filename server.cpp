@@ -100,3 +100,4 @@ void processClient(int clientSock)
                 trailer[trailerCount++] =
                     (unsigned char)buf[i];
             }
+            else {
