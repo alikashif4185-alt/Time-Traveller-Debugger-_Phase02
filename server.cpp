@@ -75,3 +75,4 @@ vector<unsigned char> makePayload(const string& message)
 {
     return vector<unsigned char>(message.begin(), message.end());
 }
+
