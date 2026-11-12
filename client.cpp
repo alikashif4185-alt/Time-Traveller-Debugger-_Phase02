@@ -128,3 +128,4 @@ int connectToHost(const char* host, int port)
     struct addrinfo hints {}, * result;
 
     hints.ai_family = AF_INET;
+    hints.ai_socktype = SOCK_STREAM;
