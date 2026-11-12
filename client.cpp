@@ -98,3 +98,4 @@ bool recvAll(int sock, char* buf, size_t n)
         }
 
         t += bytes;
+    }
