@@ -209,3 +209,4 @@ bool startServer(int port)
     if (system("./server 5001 &") == 0) {
         return true;
     }
+    return false;
