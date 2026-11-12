@@ -336,3 +336,4 @@ bool showCurrent(DebugSession& s)
 {
     
     TdbgReader r;
+    Snapshot s();
