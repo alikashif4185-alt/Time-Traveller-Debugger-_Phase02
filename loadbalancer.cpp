@@ -232,3 +232,4 @@ int connectToServerWithWakeup(const char* host,int port)
         i++;
     }
     return socket;
+    // 1. Try connectToServer(). If it works, return that socket. The server is alive.
