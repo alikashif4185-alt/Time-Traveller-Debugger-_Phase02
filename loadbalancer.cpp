@@ -313,3 +313,4 @@ int main(int argc, char* argv[])
     // 2. listenSock = createListenSocket(LB_PORT).
     // 3. Start a thread that runs acceptLoop(listenSock) and detach it.
     // 4. Call dispatcherLoop().
+    return 0;
