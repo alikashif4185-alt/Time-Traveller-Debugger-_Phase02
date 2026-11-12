@@ -248,3 +248,4 @@ void relayOneClient(ClientInfo& c)
 {
     int serverSock = connectToServerWithWakeup();
     if (serverSock == -1) {
+        cout << "Backend server failed to start" << endl;
