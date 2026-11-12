@@ -32,3 +32,4 @@ const char* PROGRAM_NAME = "ttdb";
 const char* PROMPT = "ttdb> ";
 const int IO_BUFFER_SIZE = 64 * 1024;     // fixed buffer for streaming files to and from the socket
 const char* TDBG_FILE = "ttdb_last.tdbg"; // where the downloaded .tdbg is saved
+const int MAX_JUMP = 1000000000;          // biggest n accepted by jmp
