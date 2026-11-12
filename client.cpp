@@ -283,3 +283,4 @@ bool openTdbg(const char* path, TdbgReader& r)
         return false;
     }
     return true;
+}
