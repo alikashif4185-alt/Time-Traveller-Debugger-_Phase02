@@ -122,3 +122,4 @@ bool sendAll(int sock, const char* buf, size_t n)
 int connectToHost(const char* host, int port)
 {
     int s = socket(AF_INET, SOCK_STREAM, 0);
+    if (s == -1) {
