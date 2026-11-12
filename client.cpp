@@ -171,3 +171,4 @@ bool uploadSource(int sock, const char* sourcePath) {
     FILE* f = fopen(sourcePath, "rb");
 
     if (f == nullptr)
+        return false;
