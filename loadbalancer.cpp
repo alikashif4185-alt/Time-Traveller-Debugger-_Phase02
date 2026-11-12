@@ -74,3 +74,4 @@ public:
     ~Queue()
     {
         while (!isEmpty()) {
+            dequeue();
