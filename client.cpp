@@ -379,3 +379,4 @@ void printHelp() {
     cout << "              Commands                \n";
     cout << "start <source.bin>  => Start debugging\n";
     cout << "next                => Move to next snapshot\n";
+    cout << "prv                 => Move to previous snapshot\n";
