@@ -134,3 +134,4 @@ sig_atomic_t flag = 1;
 bool sendAll(int sock, const char* buf, size_t n)
 {
 
+    // Reply format: [status: 1 byte][sending_material][checksum: 4 bytes].
