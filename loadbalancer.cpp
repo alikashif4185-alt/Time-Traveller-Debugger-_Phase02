@@ -152,3 +152,4 @@ int createListenSocket(int port)
     }
 
     // 2. Set SO_REUSEADDR so we can restart the load balancer right away
+    int opt = 1;
