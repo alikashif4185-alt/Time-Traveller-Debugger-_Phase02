@@ -107,3 +107,4 @@ void processClient(int clientSock)
                     trailer[j] = trailer[j + 1];
 
                 trailer[3] = (unsigned char)buf[i];
+            }
