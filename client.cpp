@@ -203,3 +203,4 @@ bool uploadSource(int sock, const char* sourcePath) {
     if (!sendAll(sock, (char*)&checksum, sizeof(checksum)))
         return false;
 
+    if (shutdown(sock, SHUT_WR) < 0)
