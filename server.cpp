@@ -165,3 +165,4 @@ void processClient(int clientSock)
             istreambuf_iterator<char>());
 
         if (message.empty())
+            message = "Phase 1 debugger failed";
