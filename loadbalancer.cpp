@@ -231,3 +231,4 @@ int connectToServerWithWakeup(const char* host,int port)
         connectToServer(host, port);
         i++;
     }
+    return socket;
