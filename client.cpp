@@ -357,3 +357,4 @@ bool cmdStart(DebugSession& s, const string& sourcePath)
     // 2. If it fails, print the error text and return false. Keep the old session as it was.
     // 3. Open the new file with openTdbg into a NEW local TdbgReader.
     //    If that fails, print "server sent a damaged .tdbg file", keep the old session, return false.
+    // 4. Only now close the old reader (if s.active), then put the new reader into s,
