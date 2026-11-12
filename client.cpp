@@ -274,3 +274,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
 // PART B: READING THE .tdbg FILE
 // File layout (written by Phase 1):
 //   header | snapshot 0 | snapshot 1 | ... | index (one 8 byte offset per snapshot)
+// The index lets us jump straight to any step without reading the steps before it.
