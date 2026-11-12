@@ -200,3 +200,4 @@ bool uploadSource(int sock, const char* sourcePath) {
 
     crc ^= 0xFFFFFFFF;
     uint32_t checksum = htonl(crc);
+    if (!sendAll(sock, (char*)&checksum, sizeof(checksum)))
