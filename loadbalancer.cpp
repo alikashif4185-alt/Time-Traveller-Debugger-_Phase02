@@ -154,3 +154,4 @@ int createListenSocket(int port)
     // 2. Set SO_REUSEADDR so we can restart the load balancer right away
     int opt = 1;
     if (setsockopt(listen_fd, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt)) < 0) {
+        perror("Failed to set SO_REUSEADDR");
