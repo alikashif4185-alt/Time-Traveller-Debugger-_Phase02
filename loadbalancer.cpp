@@ -234,3 +234,4 @@ int connectToServerWithWakeup(const char* host,int port)
     return socket;
     // 1. Try connectToServer(). If it works, return that socket. The server is alive.
     // 2. Otherwise call startServer(). If it fails, return -1.
+    // 3. Try connectToServer() up to STARTUP_MAX_ATTEMPTS times 
