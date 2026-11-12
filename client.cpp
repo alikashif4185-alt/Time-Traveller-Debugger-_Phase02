@@ -149,3 +149,4 @@ int connectToHost(const char* host, int port)
     // Create a TCP socket and connect it to host:port.
     // Return the socket, or -1 if the connection fails.
 }
+
