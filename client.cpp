@@ -300,3 +300,4 @@ Snapshot* readSnapshotAt(TdbgReader& r, int32_t step)
     if (f == nullptr) {
         return false;
     }
+
