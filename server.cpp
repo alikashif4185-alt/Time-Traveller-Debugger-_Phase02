@@ -85,3 +85,4 @@ void processClient(int clientSock)
 
     char buf[4096];
 
+    // Receive source file and its final 4-byte checksum.
