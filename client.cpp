@@ -325,3 +325,4 @@ void closeSession(DebugSession& s)
     // If active, call closeTdbg(s.reader). Then set active = false.
     // Called when the user types quit and when the input ends.
 }
+
