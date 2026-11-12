@@ -101,3 +101,4 @@ void processClient(int clientSock)
                     (unsigned char)buf[i];
             }
             else {
+                source.push_back(trailer[0]);
