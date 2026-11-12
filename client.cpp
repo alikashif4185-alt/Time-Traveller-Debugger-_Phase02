@@ -321,3 +321,4 @@ void closeSession(DebugSession& s)
     if (s.active_flag) {
         closeTdbg(s.reader);
         s.active_flag = false;
+    }
