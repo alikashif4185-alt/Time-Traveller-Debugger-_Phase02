@@ -203,3 +203,4 @@ int main(int argc, char* argv[])
 
     int port = atoi(argv[1]);
 
+    // Phase 1 files and executable are in this directory.
