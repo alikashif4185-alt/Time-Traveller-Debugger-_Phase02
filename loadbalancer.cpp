@@ -189,3 +189,4 @@ int createListenSocket(int port)
 }
 int connectToServer(const char* host, int port)
 {
+    int sock = createListenSocket(port);
