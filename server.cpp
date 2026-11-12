@@ -187,3 +187,4 @@ void processClient(int clientSock)
     if (debugData.empty()) {
         sendResponse(clientSock, 1,
             makePayload("Generated session.tdbg is empty"));
+        return;
