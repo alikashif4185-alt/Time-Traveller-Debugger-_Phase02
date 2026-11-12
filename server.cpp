@@ -34,3 +34,4 @@ bool sendAll(int sock, const char* buf, size_t n)
 {
     size_t t = 0;
 
+    while (t < n) {
