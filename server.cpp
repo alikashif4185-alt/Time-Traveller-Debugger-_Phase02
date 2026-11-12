@@ -98,3 +98,4 @@ void processClient(int clientSock)
         for (ssize_t i = 0; i < n; i++) {
             if (trailerCount < 4) {
                 trailer[trailerCount++] =
+                    (unsigned char)buf[i];
