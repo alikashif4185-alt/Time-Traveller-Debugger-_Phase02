@@ -60,3 +60,4 @@ class Queue
         T data;
         Node* next;
     };
+    Node* front, * rear;
