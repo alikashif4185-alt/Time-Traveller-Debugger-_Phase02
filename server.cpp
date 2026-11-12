@@ -235,3 +235,4 @@ int main(int argc, char* argv[])
     if (listen(listenSock, 8) < 0) {
         perror("listen");
         close(listenSock);
+        return 1;
