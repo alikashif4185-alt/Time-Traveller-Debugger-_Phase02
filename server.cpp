@@ -46,3 +46,4 @@ bool sendAll(int sock, const char* buf, size_t n)
     return true;
 }
 
+bool sendResponse(int sock, unsigned char status,
