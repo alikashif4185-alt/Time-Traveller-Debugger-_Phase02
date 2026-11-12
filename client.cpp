@@ -277,3 +277,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
 // The index lets us jump straight to any step without reading the steps before it.
 // =============================================================================================
 
+bool openTdbg(const char* path, TdbgReader& r)
