@@ -129,3 +129,4 @@ void processClient(int clientSock)
     if (crc != ntohl(received)) {
         sendResponse(clientSock, 1,
             makePayload("Source checksum mismatch"));
+        return;
