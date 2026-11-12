@@ -104,3 +104,4 @@ bool recvAll(int sock, char* buf, size_t n)
     // Return false if the connection closes or fails before n bytes arrive.
 }
 bool sendAll(int sock, const char* buf, size_t n)
+{
