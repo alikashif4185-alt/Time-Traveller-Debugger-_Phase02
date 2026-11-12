@@ -21,3 +21,4 @@
 // What the server program must do (the load balancer depends on this):
 //   - it takes its port as the first argument, for example: ./server 5001
 //   - it reads the string until the connection's write side is closed (recv returns 0)
+//   - it sends its reply as [status: 1 byte][payload], then closes the connection 
