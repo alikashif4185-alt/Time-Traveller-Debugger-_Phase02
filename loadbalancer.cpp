@@ -138,3 +138,4 @@ bool sendAll(int sock, const char* buf, size_t n)
     // send() may send fewer bytes than asked for, so keep calling it until all n bytes are sent.
 
 }
+bool sendError(int sock, const string& message)
