@@ -380,3 +380,4 @@ void printHelp() {
     cout << "start <source.bin>  => Start debugging\n";
     cout << "next                => Move to next snapshot\n";
     cout << "prv                 => Move to previous snapshot\n";
+    cout << "jmp <step>          => Jump to a specific snapshot\n";
