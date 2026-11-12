@@ -230,3 +230,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
     }
 
     if (!checker.verify()) {
+        remove(outTdbgPath);
