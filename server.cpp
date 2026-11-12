@@ -123,3 +123,4 @@ void processClient(int clientSock)
 
     crc ^= 0xFFFFFFFF;
 
+    uint32_t received;
