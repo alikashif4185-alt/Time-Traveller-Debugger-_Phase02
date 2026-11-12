@@ -298,3 +298,4 @@ void dispatcherLoop()
 
     // This runs in the main thread and never ends.
     // Repeat:
+    //   Lock queueMutex, take ONE client out of the queue if there is one, unlock.
