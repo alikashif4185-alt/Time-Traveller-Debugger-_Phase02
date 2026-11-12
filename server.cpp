@@ -96,3 +96,4 @@ void processClient(int clientSock)
             return;
 
         for (ssize_t i = 0; i < n; i++) {
+            if (trailerCount < 4) {
