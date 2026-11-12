@@ -57,3 +57,4 @@ class Queue
 {
     struct Node
     {
+        T data;
