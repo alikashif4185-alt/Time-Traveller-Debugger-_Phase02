@@ -258,3 +258,4 @@ void relayOneClient(ClientInfo& c)
     // 4. Call shutdown(serverSock, SHUT_WR), so the server knows the string is complete.
     // 5. Server -> client: repeat recv() from serverSock and sendAll() to clientSock.
     //    Stop when recv() returns 0 (the server sent its whole reply and closed) or fails.
+    // 6. Close both sockets.
