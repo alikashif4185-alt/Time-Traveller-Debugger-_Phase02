@@ -150,3 +150,4 @@ int connectToHost(const char* host, int port)
     // Return the socket, or -1 if the connection fails.
 }
 
+uint32_t crc32Update(uint32_t crc, const unsigned char* data, size_t n)
