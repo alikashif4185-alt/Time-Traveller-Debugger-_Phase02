@@ -249,3 +249,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
         if (f == nullptr)
             return false;
 
+        size_t w = fwrite(checker.data.data() + 1,1,size,f);
