@@ -6,3 +6,4 @@
 //   3. For each client, in order: make sure the server is running (start it with system() if not),
 //      pass the string to the server, pass the server's reply back to the client.
 //
+// It does not read or understand the messages. It only moves bytes.
