@@ -229,3 +229,4 @@ int connectToServerWithWakeup(const char* host,int port)
     int i = 0;
     while (i < STARTUP_MAX_ATTEMPTS) {
         connectToServer(host, port);
+        i++;
