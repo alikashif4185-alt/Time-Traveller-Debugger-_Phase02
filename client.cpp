@@ -339,3 +339,4 @@ bool showCurrent(DebugSession& s)
     Snapshot s();
     if (readSnapshotAt(r, s.currentStep) == nullptr) {
         cout << "damaged .tdgb file\n";
+        return false;
