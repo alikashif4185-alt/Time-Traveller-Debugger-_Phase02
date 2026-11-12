@@ -98,3 +98,4 @@ public:
     {
         if (count == 0) {
             throw runtime_error("No Clients in Queue!!");
+            return -1;
