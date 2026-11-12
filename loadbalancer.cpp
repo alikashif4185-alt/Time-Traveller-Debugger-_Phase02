@@ -188,3 +188,4 @@ int createListenSocket(int port)
     // If bind or listen fails, print the error and exit, because without this socket we cannot work.
 }
 int connectToServer(const char* host, int port)
+{
