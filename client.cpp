@@ -57,3 +57,4 @@ struct Frame
     Variable locals[MAX_VARS_PER_FRAME];
     int32_t localCount;
 };
+struct Snapshot
