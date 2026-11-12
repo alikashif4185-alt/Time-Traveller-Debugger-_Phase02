@@ -242,3 +242,4 @@ int main(int argc, char* argv[])
          << port << endl;
 
     while (true) {
+        int clientSock = accept(listenSock, nullptr, nullptr);
