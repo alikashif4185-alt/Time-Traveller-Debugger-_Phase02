@@ -29,3 +29,4 @@ using namespace std;
 
 // ---- Constants ----
 const char* PROGRAM_NAME = "ttdb";
+const char* PROMPT = "ttdb> ";
