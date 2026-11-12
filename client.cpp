@@ -63,3 +63,4 @@ struct Snapshot
     int32_t stackDepth;
 };
 struct TTDBHeader
+{
