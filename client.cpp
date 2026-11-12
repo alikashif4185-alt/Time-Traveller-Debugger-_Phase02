@@ -154,3 +154,4 @@ uint32_t crc32Update(uint32_t crc, const unsigned char* data, size_t n)
 {
     for (size_t i = 0; i < n; i++)
     {
+        crc ^= data[i];
