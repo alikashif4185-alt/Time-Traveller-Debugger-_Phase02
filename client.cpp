@@ -441,3 +441,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
         first = "";
     }
     else if (first == "start") {
+        cmdStart(s, rem);
