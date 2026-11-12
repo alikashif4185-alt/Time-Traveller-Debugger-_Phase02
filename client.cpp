@@ -136,3 +136,4 @@ int connectToHost(const char* host, int port)
     {
         close(socket_fd);
         return -1;
+    }
