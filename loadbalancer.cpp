@@ -168,3 +168,4 @@ int createListenSocket(int port)
 
     if (bind(listen_fd, (struct sockaddr*)&address, sizeof(address)) < 0) {
         perror("Bind failed");
+        close(listen_fd);
