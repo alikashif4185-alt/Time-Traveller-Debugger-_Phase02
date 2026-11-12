@@ -147,3 +147,4 @@ void processClient(int clientSock)
     if (!out) {
         sendResponse(clientSock, 1,
             makePayload("Could not save source.bin"));
+        return;
