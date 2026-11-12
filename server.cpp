@@ -180,3 +180,4 @@ void processClient(int clientSock)
         return;
     }
 
+    vector<unsigned char> debugData(
