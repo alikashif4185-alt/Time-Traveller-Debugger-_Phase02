@@ -126,3 +126,4 @@ void processClient(int clientSock)
     uint32_t received;
     memcpy(&received, trailer, 4);
 
+    if (crc != ntohl(received)) {
