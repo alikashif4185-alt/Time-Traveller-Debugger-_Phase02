@@ -176,3 +176,4 @@ int createListenSocket(int port)
     if (listen(listen_fd, LISTEN_BACKLOG) < 0) {
         perror("Listen failed");
         close(listen_fd);
+        exit(EXIT_FAILURE);
