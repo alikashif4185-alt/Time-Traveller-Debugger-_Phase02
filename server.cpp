@@ -103,3 +103,4 @@ void processClient(int clientSock)
             else {
                 source.push_back(trailer[0]);
 
+                for (int j = 0; j < 3; j++)
