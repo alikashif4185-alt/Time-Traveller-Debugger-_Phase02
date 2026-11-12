@@ -79,3 +79,4 @@ public:
     }
     void enqueue(const T& val)
     {
+        if (size>=8) {
