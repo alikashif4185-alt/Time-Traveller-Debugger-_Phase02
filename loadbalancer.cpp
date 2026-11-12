@@ -101,3 +101,4 @@ public:
             return -1;
         }
         Node* save = front->next;
+        Node* temp = front;
