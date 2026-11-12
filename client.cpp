@@ -347,3 +347,4 @@ bool showCurrent(DebugSession& s)
     // Read the snapshot at s.currentStep, call printSnapshot, delete the snapshot.
     // If readSnapshotAt returns nullptr, print "damaged .tdbg file" and return false.
 }
+bool moveBy(DebugSession& s, int32_t delta)
