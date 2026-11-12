@@ -440,3 +440,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     if (first == "ttdb") {
         first = "";
     }
+    else if (first == "start") {
