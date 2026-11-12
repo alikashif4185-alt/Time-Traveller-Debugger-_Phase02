@@ -289,3 +289,4 @@ void closeTdbg(TdbgReader& r)
     r.index = {};
     r.header = {};
     // Free r.index and close the file.
+}
