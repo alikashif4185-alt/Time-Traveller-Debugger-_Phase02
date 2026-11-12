@@ -131,3 +131,4 @@ sig_atomic_t flag = 1;
 
 
 // ---- Basic socket helpers ----
+bool sendAll(int sock, const char* buf, size_t n)
