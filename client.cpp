@@ -464,3 +464,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
          return false;
     }
     return true;
+    // 2. If the first word is "ttdb", drop it.
