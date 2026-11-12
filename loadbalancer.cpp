@@ -56,3 +56,4 @@ template <typename T>
 class Queue
 {
     struct Node
+    {
