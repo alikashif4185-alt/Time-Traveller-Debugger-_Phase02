@@ -254,3 +254,4 @@ void relayOneClient(ClientInfo& c)
     // 1. serverSock = connectToServerWithWakeup().
     //    If it is -1: sendError "backend server failed to start", close clientSock, return.
     // 3. Client -> server: repeat recv() from clientSock into a buffer of IO_BUFFER_SIZE and sendAll() it to serverSock.
+    //    Stop when recv() returns 0 (the client finished sending) or fails.
