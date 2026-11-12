@@ -192,3 +192,4 @@ bool uploadSource(int sock, const char* sourcePath) {
             if (ferror(f)) {
                 fclose(f);
                 return false;
+            }
