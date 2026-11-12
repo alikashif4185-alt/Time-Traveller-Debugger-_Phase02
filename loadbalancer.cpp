@@ -166,3 +166,4 @@ int createListenSocket(int port)
     address.sin_addr.s_addr = INADDR_ANY;
     address.sin_port = htons(port);
 
+    if (bind(listen_fd, (struct sockaddr*)&address, sizeof(address)) < 0) {
