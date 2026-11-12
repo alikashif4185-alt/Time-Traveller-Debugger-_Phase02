@@ -149,3 +149,4 @@ int createListenSocket(int port)
     if (listen_fd < 0) {
         perror("Failed to create socket");
         exit(EXIT_FAILURE);
+    }
