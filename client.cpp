@@ -469,3 +469,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     //      start      -> needs a path after it, then cmdStart
     //      next       -> no more words, then cmdNext
     //      prv        -> no more words, then cmdPrv
+    //      jmp        -> second word "next" or "prv", third word a positive number ,
