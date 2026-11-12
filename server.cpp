@@ -93,3 +93,4 @@ void processClient(int clientSock)
             break;
 
         if (n < 0)
+            return;
