@@ -31,3 +31,4 @@ uint32_t crc32Update(uint32_t crc, const unsigned char* data, size_t n)
 }
 
 bool sendAll(int sock, const char* buf, size_t n)
+{
