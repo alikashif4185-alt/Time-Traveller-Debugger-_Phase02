@@ -176,3 +176,4 @@ void processClient(int clientSock)
 
     if (!file.is_open()) {
         sendResponse(clientSock, 1,
+            makePayload("session.tdbg was not generated"));
