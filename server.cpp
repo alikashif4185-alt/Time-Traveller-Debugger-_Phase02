@@ -80,3 +80,4 @@ void processClient(int clientSock)
 {
     vector<unsigned char> source;
 
+    unsigned char trailer[4];
