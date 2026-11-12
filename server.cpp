@@ -156,3 +156,4 @@ void processClient(int clientSock)
     remove("backend_error.txt");
 
     // Run the existing Phase 1 debugger.
+    int result = system("./ttdb_linux > backend_error.txt 2>&1");
