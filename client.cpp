@@ -173,3 +173,4 @@ bool uploadSource(int sock, const char* sourcePath) {
     if (f == nullptr)
         return false;
 
+    char buf[4096];
