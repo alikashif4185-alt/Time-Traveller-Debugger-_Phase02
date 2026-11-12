@@ -242,3 +242,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
 
     if (st == 1) {
         outError.assign((char*)checker.data.data() + 1,size);
+        return true;
