@@ -156,3 +156,4 @@ int createListenSocket(int port)
     if (setsockopt(listen_fd, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt)) < 0) {
         perror("Failed to set SO_REUSEADDR");
         close(listen_fd);
+        exit(EXIT_FAILURE);
