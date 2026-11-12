@@ -61,3 +61,4 @@ class Queue
         Node* next;
     };
     Node* front, * rear;
+    int count;
