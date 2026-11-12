@@ -186,3 +186,4 @@ bool uploadSource(int sock, const char* sourcePath) {
             if (!sendAll(sock, buf, n)) {
                 fclose(f);
                 return false;
+            }
