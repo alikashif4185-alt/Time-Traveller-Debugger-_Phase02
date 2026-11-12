@@ -221,3 +221,4 @@ int main(int argc, char* argv[])
         &opt, sizeof(opt));
 
     sockaddr_in address{};
+    address.sin_family = AF_INET;
