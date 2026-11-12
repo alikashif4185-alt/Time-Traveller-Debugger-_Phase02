@@ -194,3 +194,4 @@ int connectToServer(const char* host, int port)
         return -1;
     }
     
+    // Create a TCP socket (SOCK_CLOEXEC) and connect it to host:port.
