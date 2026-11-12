@@ -479,3 +479,4 @@ int main(int argc, char* argv[])
 {
     // you get string LB_HOST and int LB_PORT = 0 in arguments of this main function. 
 
+    // DebugSession session; initSession(session);
