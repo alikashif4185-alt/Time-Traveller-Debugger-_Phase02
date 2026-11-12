@@ -50,3 +50,4 @@ bool sendResponse(int sock, unsigned char status,
     const vector<unsigned char>& payload)
 {
     uint32_t crc = 0xFFFFFFFF;
+
