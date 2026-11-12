@@ -419,3 +419,4 @@ string secondWord(string line) {
         i++;
         st += line[i];
     }
+    return st;
