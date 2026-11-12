@@ -184,3 +184,4 @@ int createListenSocket(int port)
 
     // Create a TCP socket with SOCK_CLOEXEC(flag).
     // set SO_REUSEADDR so we can restart the load balancer right away.
+    // bind() to the port on any address, then listen(LISTEN_BACKLOG).
