@@ -384,3 +384,4 @@ void printHelp() {
     cout << "help                => Show available commands\n";
     cout << "shutdown            => Stop the debugger\n";
 }
+
