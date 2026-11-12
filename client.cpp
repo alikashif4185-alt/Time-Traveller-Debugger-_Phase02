@@ -51,3 +51,4 @@ struct Variable
 struct Frame
 {
     string func_name;
+    int32_t argc;
