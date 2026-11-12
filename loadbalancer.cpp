@@ -71,3 +71,4 @@ public:
         front = rear = NULL;
         count = 0;
     }
+    ~Queue()
