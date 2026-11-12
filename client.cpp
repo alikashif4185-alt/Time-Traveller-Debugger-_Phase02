@@ -68,3 +68,4 @@ struct TTDBHeader
     int32_t version;
     int32_t stepCount;
     int64_t indexOffset;
+};
