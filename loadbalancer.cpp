@@ -59,3 +59,4 @@ class Queue
     {
         T data;
         Node* next;
+    };
