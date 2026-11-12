@@ -67,3 +67,4 @@ bool sendResponse(int sock, unsigned char status,
         if (!sendAll(sock, (char*)payload.data(), payload.size()))
             return false;
     }
+
