@@ -136,3 +136,4 @@ void processClient(int clientSock)
     ofstream out("source.bin", ios::binary);
 
     if (!out.is_open()) {
+        sendResponse(clientSock, 1,
