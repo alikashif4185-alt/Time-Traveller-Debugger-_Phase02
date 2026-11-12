@@ -55,3 +55,4 @@ int serverPort = 5001;
 template <typename T>
 class Queue
 {
+    struct Node
