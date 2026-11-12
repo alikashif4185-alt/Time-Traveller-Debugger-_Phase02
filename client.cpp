@@ -133,3 +133,4 @@ int connectToHost(const char* host, int port)
     snprintf(portStr, sizeof(portStr), "%d", port);
 
     if (getaddrinfo(host, portStr, &hints, &result) != 0)
+    {
