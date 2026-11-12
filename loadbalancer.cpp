@@ -121,3 +121,4 @@ struct ClientInfo
     int sock;           // the connected socket
     string address;     // the client's IP as text, e.g. "127.0.0.1"
     int port;           // the client's port
+    time_t arrivedAt;   // when accept() returned
