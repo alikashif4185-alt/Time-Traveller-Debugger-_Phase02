@@ -205,3 +205,4 @@ int main(int argc, char* argv[])
 
     // Phase 1 files and executable are in this directory.
     if (chdir("../Phase 01") != 0) {
+        perror("Cannot enter Phase 01 directory");
