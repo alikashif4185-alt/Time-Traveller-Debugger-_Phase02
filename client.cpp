@@ -404,3 +404,4 @@ string thirdWord(string line) {
     return st;
 }
 string secondWord(string line) {
+    int spcount = 0,i=0;
