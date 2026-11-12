@@ -129,3 +129,4 @@ int connectToHost(const char* host, int port)
 
     hints.ai_family = AF_INET;
     hints.ai_socktype = SOCK_STREAM;
+    char portStr[10];
