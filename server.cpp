@@ -194,3 +194,4 @@ void processClient(int clientSock)
     sendResponse(clientSock, 0, debugData);
 }
 
+int main(int argc, char* argv[])
