@@ -316,3 +316,4 @@ void initSession(DebugSession& s)
     s.active_flag = true;
     openTdbg(TDBG_FILE,r);
 }
+void closeSession(DebugSession& s)
