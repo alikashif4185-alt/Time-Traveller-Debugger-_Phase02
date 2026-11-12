@@ -392,3 +392,4 @@ string thirdWord(string line) {
     int spcount = 0;
     int i = 0;
     string st = "";
+    while (spcount < 2) {
