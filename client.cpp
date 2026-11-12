@@ -414,3 +414,4 @@ string secondWord(string line) {
     }
     while (spcount < 2) {
         if (line[i] == ' ') {
+            spcount++;
