@@ -484,3 +484,4 @@ int main(int argc, char* argv[])
     //
     // Infinite loop:
     //   if quitRequested, break
+    //
