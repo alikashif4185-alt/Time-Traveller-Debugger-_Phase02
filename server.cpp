@@ -104,3 +104,4 @@ void processClient(int clientSock)
                 source.push_back(trailer[0]);
 
                 for (int j = 0; j < 3; j++)
+                    trailer[j] = trailer[j + 1];
