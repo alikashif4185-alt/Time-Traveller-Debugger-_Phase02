@@ -436,3 +436,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
         i++;
     }
     string second = secondWord(line);
+    string third = thirdWord(line);
