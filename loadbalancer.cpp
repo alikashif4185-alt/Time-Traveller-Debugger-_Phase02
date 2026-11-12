@@ -139,3 +139,4 @@ bool sendAll(int sock, const char* buf, size_t n)
 
 }
 bool sendError(int sock, const string& message)
+{
