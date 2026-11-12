@@ -71,3 +71,4 @@ bool sendResponse(int sock, unsigned char status,
     return sendAll(sock, (char*)&checksum, sizeof(checksum));
 }
 
+vector<unsigned char> makePayload(const string& message)
