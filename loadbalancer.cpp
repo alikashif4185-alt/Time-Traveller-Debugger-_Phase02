@@ -214,3 +214,4 @@ bool startServer(int port)
     // Call system() with it.
     // Return true if system() returned 0, otherwise false.
 }
+int connectToServerWithWakeup(const char* host,int port)
