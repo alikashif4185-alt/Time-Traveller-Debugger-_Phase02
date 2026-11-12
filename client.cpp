@@ -229,3 +229,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
         checker.feed(buf, n);
     }
 
+    if (!checker.verify()) {
