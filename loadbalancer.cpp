@@ -283,3 +283,4 @@ void acceptLoop(int listenSock)
     //  If pendingClients.size() is already MAX_PENDING_CLIENTS: unlock, sendError "server busy, try again later",
     // else
     // Lock queueMutex.
+    //   close the client, and go on.
