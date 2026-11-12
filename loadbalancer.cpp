@@ -279,3 +279,4 @@ void acceptLoop(int listenSock)
         queueMutex.lock();
 
     }
+    // Repeat: accept() a new client. 
