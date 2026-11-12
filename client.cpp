@@ -467,3 +467,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     // 2. If the first word is "ttdb", drop it.
     // 3. Match the first word:
     //      start      -> needs a path after it, then cmdStart
+    //      next       -> no more words, then cmdNext
