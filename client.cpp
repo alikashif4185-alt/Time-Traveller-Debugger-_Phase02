@@ -189,3 +189,4 @@ bool uploadSource(int sock, const char* sourcePath) {
             }
         }
         if (n < sizeof(buf)) {
+            if (ferror(f)) {
