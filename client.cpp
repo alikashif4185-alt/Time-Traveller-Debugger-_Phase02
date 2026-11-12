@@ -348,3 +348,4 @@ bool showCurrent(DebugSession& s)
     // If readSnapshotAt returns nullptr, print "damaged .tdbg file" and return false.
 }
 bool moveBy(DebugSession& s, int32_t delta)
+{
