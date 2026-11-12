@@ -104,3 +104,4 @@ public:
         Node* temp = front;
         front = front->next;
         count--;
+        return temp->data;
