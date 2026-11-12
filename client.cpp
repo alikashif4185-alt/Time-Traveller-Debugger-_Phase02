@@ -332,3 +332,4 @@ void closeSession(DebugSession& s)
 
 void printSnapshot(int32_t step, int32_t totalSteps, const Snapshot& s); // defined in Part E
 
+bool showCurrent(DebugSession& s)
