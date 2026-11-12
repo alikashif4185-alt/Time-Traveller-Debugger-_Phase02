@@ -465,3 +465,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     }
     return true;
     // 2. If the first word is "ttdb", drop it.
+    // 3. Match the first word:
