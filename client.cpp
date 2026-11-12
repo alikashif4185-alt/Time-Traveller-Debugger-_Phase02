@@ -181,3 +181,4 @@ bool uploadSource(int sock, const char* sourcePath) {
         size_t n = fread(buf, 1, sizeof(buf), f);
 
         if (n > 0) {
+            crc = crc32Update(crc, (unsigned char*)buf, n);
