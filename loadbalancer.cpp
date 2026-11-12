@@ -41,3 +41,4 @@ using namespace std;
 // ---- Constants ----
 const char* SERVER_PATH = "./server";      // the program we start when the server is down
 const int IO_BUFFER_SIZE = 64 * 1024;      // fixed buffer for moving bytes
+const int LISTEN_BACKLOG = 16;             // connections the OS holds until accept() takes them
