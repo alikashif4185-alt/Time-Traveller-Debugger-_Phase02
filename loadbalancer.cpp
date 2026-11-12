@@ -9,3 +9,4 @@
 // It does not read or understand the messages. It only moves bytes.
 // The only messages it writes itself are errors ("server busy", "server failed to start").
 //
+// Two threads:
