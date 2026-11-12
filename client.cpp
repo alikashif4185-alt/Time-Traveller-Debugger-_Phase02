@@ -310,3 +310,4 @@ Snapshot* readSnapshotAt(TdbgReader& r, int32_t step)
 // There is one DebugSession variable, created in main() and passed to every command by reference.
 // =============================================================================================
 
+void initSession(DebugSession& s)
