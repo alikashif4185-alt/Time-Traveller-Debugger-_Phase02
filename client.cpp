@@ -34,3 +34,4 @@ const int IO_BUFFER_SIZE = 64 * 1024;     // fixed buffer for streaming files to
 const char* TDBG_FILE = "ttdb_last.tdbg"; // where the downloaded .tdbg is saved
 const int MAX_JUMP = 1000000000;          // biggest n accepted by jmp
 string LB_HOST = "127.0.0.0";
+int LB_PORT = 5000;
