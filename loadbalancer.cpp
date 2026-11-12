@@ -142,3 +142,4 @@ bool sendError(int sock, const string& message)
 {
     // Reply format: [status: 1 byte][payload until close][checksum: 4 bytes].
     // For an error: send one byte with value 1, then the message text. 
+}
