@@ -74,3 +74,4 @@ struct TTDBHeader
 struct TdbgReader
 {
     ssize_t file_index;
+    TTDBHeader header;
