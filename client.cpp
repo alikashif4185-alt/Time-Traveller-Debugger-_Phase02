@@ -420,3 +420,4 @@ string secondWord(string line) {
         st += line[i];
     }
     return st;
+}
