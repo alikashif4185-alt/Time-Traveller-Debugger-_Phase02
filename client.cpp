@@ -131,3 +131,4 @@ int connectToHost(const char* host, int port)
     hints.ai_socktype = SOCK_STREAM;
     char portStr[10];
     snprintf(portStr, sizeof(portStr), "%d", port);
+
