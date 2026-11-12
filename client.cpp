@@ -218,3 +218,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
     while (true) {
         ssize_t n = recv(sock, buf, sizeof(buf), 0);
 
+        if (n == 0)
