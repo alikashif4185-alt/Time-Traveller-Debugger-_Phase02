@@ -111,3 +111,4 @@ bool sendAll(int sock, const char* buf, size_t n)
         if (sendbytes <= 0) {
             return false;
         }
+        t += sendbytes;
