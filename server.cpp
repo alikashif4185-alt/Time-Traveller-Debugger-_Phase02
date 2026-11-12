@@ -38,3 +38,4 @@ bool sendAll(int sock, const char* buf, size_t n)
         ssize_t b = send(sock, buf + t, n - t, MSG_NOSIGNAL);
 
         if (b <= 0)
+            return false;
