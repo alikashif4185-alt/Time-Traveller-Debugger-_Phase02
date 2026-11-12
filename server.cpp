@@ -59,3 +59,4 @@ bool sendResponse(int sock, unsigned char status,
     crc ^= 0xFFFFFFFF;
 
     uint32_t checksum = htonl(crc);
+
