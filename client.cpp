@@ -282,3 +282,4 @@ bool openTdbg(const char* path, TdbgReader& r)
     if (fopen(TDBG_FILE, path) == nullptr) {
         return false;
     }
+    return true;
