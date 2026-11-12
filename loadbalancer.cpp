@@ -159,3 +159,4 @@ int createListenSocket(int port)
         exit(EXIT_FAILURE);
     }
 
+    // 3. Bind to the port on any address (INADDR_ANY)
