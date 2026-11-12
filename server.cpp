@@ -130,3 +130,4 @@ void processClient(int clientSock)
         sendResponse(clientSock, 1,
             makePayload("Source checksum mismatch"));
         return;
+    }
