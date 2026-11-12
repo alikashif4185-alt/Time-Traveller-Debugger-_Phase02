@@ -117,3 +117,4 @@ void processClient(int clientSock)
         return;
     }
 
+    // Verify uploaded source checksum.
