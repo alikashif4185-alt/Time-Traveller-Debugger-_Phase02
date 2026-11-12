@@ -48,3 +48,4 @@ bool sendAll(int sock, const char* buf, size_t n)
 
 bool sendResponse(int sock, unsigned char status,
     const vector<unsigned char>& payload)
+{
