@@ -13,3 +13,4 @@
 //   next, prv, jmp -> moveBy() (Part D) -> readSnapshotAt() (Part B) -> printSnapshot() (Part E)
 
 #include <iostream>
+#include <string>
