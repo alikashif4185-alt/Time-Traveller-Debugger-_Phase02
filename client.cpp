@@ -403,3 +403,4 @@ string thirdWord(string line) {
     }
     return st;
 }
+string secondWord(string line) {
