@@ -376,3 +376,4 @@ void printSnapshot(int32_t step, int32_t totalSteps, const Snapshot& s)
 }
 void printHelp() {
     // Print the commands
+    cout << "              Commands                \n";
