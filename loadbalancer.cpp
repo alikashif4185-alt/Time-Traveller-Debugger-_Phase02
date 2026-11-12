@@ -146,3 +146,4 @@ bool sendError(int sock, const string& message)
 int createListenSocket(int port)
 {
     int listen_fd = socket(AF_INET, SOCK_STREAM | SOCK_CLOEXEC, 0);
+    if (listen_fd < 0) {
