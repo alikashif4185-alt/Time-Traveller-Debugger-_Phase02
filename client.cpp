@@ -175,3 +175,4 @@ bool uploadSource(int sock, const char* sourcePath) {
 
     char buf[4096];
     uint32_t crc = 0xFFFFFFFF;
+
