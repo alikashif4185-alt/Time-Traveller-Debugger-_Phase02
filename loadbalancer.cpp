@@ -130,3 +130,4 @@ mutex queueMutex;
 sig_atomic_t flag = 1;
 
 
+// ---- Basic socket helpers ----
