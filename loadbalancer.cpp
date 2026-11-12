@@ -287,3 +287,4 @@ void acceptLoop(int listenSock)
     //   Otherwise enqueue the client socket.
     // Never wait for the server here, so new clients are always accepted quickly.
     // If accept() fails, print the error and keep going (do not end the thread).
+}
