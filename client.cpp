@@ -290,3 +290,4 @@ void closeTdbg(TdbgReader& r)
     r.header = {};
     // Free r.index and close the file.
 }
+Snapshot* readSnapshotAt(TdbgReader& r, int32_t step)
