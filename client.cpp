@@ -303,3 +303,4 @@ Snapshot* readSnapshotAt(TdbgReader& r, int32_t step)
 
     fclose(f);
     return nullptr;
+}
