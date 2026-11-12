@@ -162,3 +162,4 @@ void processClient(int clientSock)
         ifstream err("backend_error.txt");
         string message(
             (istreambuf_iterator<char>(err)),
+            istreambuf_iterator<char>());
