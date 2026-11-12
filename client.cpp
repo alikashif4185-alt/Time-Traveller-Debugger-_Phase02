@@ -116,3 +116,4 @@ bool sendAll(int sock, const char* buf, size_t n)
 
     return true;
     // send() can send fewer bytes than asked for, so keep calling it until all n bytes are sent.
+    // Use the flag MSG_NOSIGNAL. Return false if the connection fails.
