@@ -8,3 +8,4 @@
 // next / prv / jmp read that file on the local disk. They never contact the load balancer.
 //
 // How the pieces fit together:
+//   main loop -> readCommand -> runCommand
