@@ -75,3 +75,4 @@ public:
     {
         while (!isEmpty()) {
             dequeue();
+        }
