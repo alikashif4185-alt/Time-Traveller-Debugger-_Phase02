@@ -222,3 +222,4 @@ int main(int argc, char* argv[])
 
     sockaddr_in address{};
     address.sin_family = AF_INET;
+    address.sin_addr.s_addr = INADDR_ANY;
