@@ -166,3 +166,4 @@ uint32_t crc32Update(uint32_t crc, const unsigned char* data, size_t n)
     }
 
     return crc;
+}
