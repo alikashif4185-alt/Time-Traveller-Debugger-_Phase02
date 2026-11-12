@@ -257,3 +257,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
             return false;
         }
         return true;
+    }
