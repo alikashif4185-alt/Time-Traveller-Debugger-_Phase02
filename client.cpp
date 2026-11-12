@@ -178,3 +178,4 @@ bool uploadSource(int sock, const char* sourcePath) {
 
     while (true)
     {
+        size_t n = fread(buf, 1, sizeof(buf), f);
