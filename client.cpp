@@ -64,3 +64,4 @@ struct Snapshot
 };
 struct TTDBHeader
 {
+    char magic[4]; // "TTDB"
