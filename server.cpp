@@ -232,3 +232,4 @@ int main(int argc, char* argv[])
         return 1;
     }
 
+    if (listen(listenSock, 8) < 0) {
