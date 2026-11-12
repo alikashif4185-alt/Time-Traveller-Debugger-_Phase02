@@ -11,3 +11,4 @@ struct FuncEntry
     int64_t byteOffsetInResolveBin; // where this function's FUNC header record sits
 };
 struct PendingPatch
+{
