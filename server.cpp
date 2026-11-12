@@ -69,3 +69,4 @@ bool sendResponse(int sock, unsigned char status,
     }
 
     return sendAll(sock, (char*)&checksum, sizeof(checksum));
+}
