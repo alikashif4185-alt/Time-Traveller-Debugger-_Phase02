@@ -91,3 +91,4 @@ public:
         }
         Node* newNode = new Node(val);
         rear = newNode;
+        count++;
