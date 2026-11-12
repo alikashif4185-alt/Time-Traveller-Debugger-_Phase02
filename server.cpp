@@ -251,3 +251,4 @@ int main(int argc, char* argv[])
         close(clientSock);
     }
 
+    close(listenSock);
