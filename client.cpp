@@ -263,3 +263,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
     outError = "invalid response status";
 
     return false;
+    // Reply on the wire: [status][payload][CRC-32]. The CRC covers the status byte too.
