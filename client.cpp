@@ -27,3 +27,4 @@
 #include<cerrno>
 using namespace std;
 
+// ---- Constants ----
