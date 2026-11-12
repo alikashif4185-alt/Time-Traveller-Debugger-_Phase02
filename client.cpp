@@ -253,3 +253,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
         fclose(f);
 
         if (w != size) {
+            remove(outTdbgPath);
