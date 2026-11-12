@@ -278,3 +278,4 @@ void acceptLoop(int listenSock)
     else {
         queueMutex.lock();
 
+    }
