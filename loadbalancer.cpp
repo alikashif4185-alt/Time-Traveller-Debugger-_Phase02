@@ -96,3 +96,4 @@ public:
     }
     T dequeue()
     {
+        if (count == 0) {
