@@ -344,3 +344,4 @@ bool showCurrent(DebugSession& s)
     printSnapshot(s.currentStep,)
 
        
+    // Read the snapshot at s.currentStep, call printSnapshot, delete the snapshot.
