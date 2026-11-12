@@ -381,3 +381,4 @@ void printHelp() {
     cout << "next                => Move to next snapshot\n";
     cout << "prv                 => Move to previous snapshot\n";
     cout << "jmp <step>          => Jump to a specific snapshot\n";
+    cout << "help                => Show available commands\n";
