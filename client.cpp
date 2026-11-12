@@ -306,3 +306,4 @@ Snapshot* readSnapshotAt(TdbgReader& r, int32_t step)
 }
 
 // =============================================================================================
+// PART C: THE SESSION IN MEMORY
