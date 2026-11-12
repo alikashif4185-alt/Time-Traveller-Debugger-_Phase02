@@ -78,3 +78,4 @@ struct TdbgReader
     vector<int64_t> index;
 };
 struct DebugSession
+{
