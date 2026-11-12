@@ -306,3 +306,4 @@ void handler(int sg) {
     (void)sg;
     flag = 0;
 }
+int main(int argc, char* argv[])
