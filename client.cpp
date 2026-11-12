@@ -354,3 +354,4 @@ bool cmdStart(DebugSession& s, const string& sourcePath)
 {
     TDBG_FILE ;
     // 1. requestDebugFile with host and port, saving to TDBG_FILE.
+    // 2. If it fails, print the error text and return false. Keep the old session as it was.
