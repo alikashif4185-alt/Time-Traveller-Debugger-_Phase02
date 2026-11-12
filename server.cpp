@@ -207,3 +207,4 @@ int main(int argc, char* argv[])
     if (chdir("../Phase 01") != 0) {
         perror("Cannot enter Phase 01 directory");
         return 1;
+    }
