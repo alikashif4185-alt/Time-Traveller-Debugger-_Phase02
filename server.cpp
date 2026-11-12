@@ -51,3 +51,4 @@ bool sendResponse(int sock, unsigned char status,
 {
     uint32_t crc = 0xFFFFFFFF;
 
+    crc = crc32Update(crc, &status, 1);
