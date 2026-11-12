@@ -473,3 +473,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     //                    then cmdJmpNext or cmdJmpPrv
     //      help       -> printHelp
     //      quit, exit -> set quitRequested = true
+    // 4. For anything else, or a wrong number of words, print "unknown command" and the help text, and return false.
