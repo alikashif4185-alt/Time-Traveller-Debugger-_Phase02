@@ -69,3 +69,4 @@ public:
     Queue()
     {
         front = rear = NULL;
+        count = 0;
