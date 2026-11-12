@@ -371,3 +371,4 @@ bool cmdJmpPrv(DebugSession& s, int32_t n) {}
 // =============================================================================================
 
 void printSnapshot(int32_t step, int32_t totalSteps, const Snapshot& s)
+{
