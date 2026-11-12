@@ -193,3 +193,4 @@ bool uploadSource(int sock, const char* sourcePath) {
                 fclose(f);
                 return false;
             }
+            break;
