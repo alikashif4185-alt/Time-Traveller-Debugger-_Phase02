@@ -168,3 +168,4 @@ void processClient(int clientSock)
             message = "Phase 1 debugger failed";
 
         sendResponse(clientSock, 1, makePayload(message));
+        return;
