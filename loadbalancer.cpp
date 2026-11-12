@@ -296,3 +296,4 @@ void dispatcherLoop()
     relayOneClient(c);
     
 
+    // This runs in the main thread and never ends.
