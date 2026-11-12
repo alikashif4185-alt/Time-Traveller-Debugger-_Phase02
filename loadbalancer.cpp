@@ -124,3 +124,4 @@ struct ClientInfo
     time_t arrivedAt;   // when accept() returned
 };
 
+// The queue is used by two threads, so every use of it must be inside queueMutex.
