@@ -483,3 +483,4 @@ int main(int argc, char* argv[])
     // Print a short welcome and the help text.
     //
     // Infinite loop:
+    //   if quitRequested, break
