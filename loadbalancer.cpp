@@ -160,3 +160,4 @@ int createListenSocket(int port)
     }
 
     // 3. Bind to the port on any address (INADDR_ANY)
+    struct sockaddr_in address;
