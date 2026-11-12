@@ -159,3 +159,4 @@ void processClient(int clientSock)
     int result = system("./ttdb_linux > backend_error.txt 2>&1");
 
     if (result != 0) {
+        ifstream err("backend_error.txt");
