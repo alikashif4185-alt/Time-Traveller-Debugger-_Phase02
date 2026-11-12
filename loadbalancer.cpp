@@ -157,3 +157,4 @@ int createListenSocket(int port)
         perror("Failed to set SO_REUSEADDR");
         close(listen_fd);
         exit(EXIT_FAILURE);
+    }
