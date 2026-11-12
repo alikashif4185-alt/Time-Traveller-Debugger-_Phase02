@@ -271,3 +271,4 @@ void acceptLoop(int listenSock)
 {
     ClientInfo c;
     createListenSocket(listenSock);
+    if (pendingClients.size() == MAX_PENDING_CLIENTS) {
