@@ -184,3 +184,4 @@ void processClient(int clientSock)
         (istreambuf_iterator<char>(file)),
         istreambuf_iterator<char>());
 
+    if (debugData.empty()) {
