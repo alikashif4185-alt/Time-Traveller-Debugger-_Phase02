@@ -310,3 +310,4 @@ int main(int argc, char* argv[])
 {
 
     signal(SIGINT, handler); // whenever ctrl+c will be pressed to exit the program the flag wll be set so insead of using infinite loop you can loop on flag to safely close things and exit
+    // 2. listenSock = createListenSocket(LB_PORT).
