@@ -412,3 +412,4 @@ string secondWord(string line) {
         }
         i++;
     }
+    while (spcount < 2) {
