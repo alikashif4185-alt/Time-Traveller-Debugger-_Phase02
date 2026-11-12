@@ -226,3 +226,4 @@ int connectToServerWithWakeup(const char* host,int port)
     if (!serverflag) {
         return -1;
     }
+    int i = 0;
