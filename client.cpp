@@ -485,3 +485,4 @@ int main(int argc, char* argv[])
     // Infinite loop:
     //   if quitRequested, break
     //
+    // After the loop: closeSession(session) and return 0.
