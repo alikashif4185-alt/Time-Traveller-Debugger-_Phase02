@@ -150,3 +150,4 @@ void processClient(int clientSock)
         return;
     }
 
+    // Remove previous output so stale files cannot be returned.
