@@ -13,3 +13,4 @@
 //   acceptor thread (acceptLoop) -> takes new clients and puts them in the queue. It never waits for the server.
 //   main thread (dispatcherLoop) -> takes ONE client out of the queue and serves it completely, then the next.
 //
+// How the server is started:
