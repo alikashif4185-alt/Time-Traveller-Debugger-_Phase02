@@ -276,3 +276,4 @@ void acceptLoop(int listenSock)
         throw exception("Server busy, Try Again!");
     }
     else {
+        queueMutex.lock();
