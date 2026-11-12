@@ -389,3 +389,4 @@ void printHelp() {
 // PART F: THE INFINITE LOOP
 // =============================================================================================
 string thirdWord(string line) {
+    int spcount = 0;
