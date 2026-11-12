@@ -247,3 +247,4 @@ int connectToServerWithWakeup(const char* host,int port)
 void relayOneClient(ClientInfo& c)
 {
     int serverSock = connectToServerWithWakeup();
+    if (serverSock == -1) {
