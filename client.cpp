@@ -184,3 +184,4 @@ bool uploadSource(int sock, const char* sourcePath) {
             crc = crc32Update(crc, (unsigned char*)buf, n);
 
             if (!sendAll(sock, buf, n)) {
+                fclose(f);
