@@ -309,3 +309,4 @@ Snapshot* readSnapshotAt(TdbgReader& r, int32_t step)
 // PART C: THE SESSION IN MEMORY
 // There is one DebugSession variable, created in main() and passed to every command by reference.
 // =============================================================================================
+
