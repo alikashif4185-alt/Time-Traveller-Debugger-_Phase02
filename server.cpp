@@ -169,3 +169,4 @@ void processClient(int clientSock)
 
         sendResponse(clientSock, 1, makePayload(message));
         return;
+    }
