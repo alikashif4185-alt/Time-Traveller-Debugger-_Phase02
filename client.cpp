@@ -433,3 +433,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     
     while (i < line.length()) {
         rem += line[i];
+        i++;
