@@ -435,3 +435,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
         rem += line[i];
         i++;
     }
+    string second = secondWord(line);
