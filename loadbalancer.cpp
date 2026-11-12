@@ -206,3 +206,4 @@ int connectToServer(const char* host, int port)
 bool startServer(int port)
 {
     // Build the command text: SERVER_PATH + " " + port as text + "&"
+    if (system("./server 5001 &") == 0) {
