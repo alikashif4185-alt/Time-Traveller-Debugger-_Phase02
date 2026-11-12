@@ -121,3 +121,4 @@ void processClient(int clientSock)
     uint32_t crc = crc32Update(
         0xFFFFFFFF, source.data(), source.size());
 
+    crc ^= 0xFFFFFFFF;
