@@ -47,3 +47,4 @@ const int STARTUP_MAX_ATTEMPTS = 50;       // after starting the server, how man
 const int STARTUP_POLL_INTERVAL_MS = 100;  // wait between those tries (50 x 100 ms = 5 seconds in total)
 int lbPort = 5000;
 string serverHost = "127.0.0.0";
+int serverPort = 5001;
