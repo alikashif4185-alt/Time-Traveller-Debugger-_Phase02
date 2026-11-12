@@ -486,3 +486,4 @@ int main(int argc, char* argv[])
     //   if quitRequested, break
     //
     // After the loop: closeSession(session) and return 0.
+    // Never exit the loop because of an error. Only quit or the end of the input leaves it.
