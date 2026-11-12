@@ -273,3 +273,4 @@ void acceptLoop(int listenSock)
     createListenSocket(listenSock);
     if (pendingClients.size() == MAX_PENDING_CLIENTS) {
         queueMutex.unlock();
+        throw exception("Server busy, Try Again!");
