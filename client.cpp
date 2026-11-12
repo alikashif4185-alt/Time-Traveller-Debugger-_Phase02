@@ -82,3 +82,4 @@ struct DebugSession
     int active_flag;     // false until a "start" has worked
     TdbgReader reader;   // the .tdbg file stays open for the whole session
     int64_t currentStep;
+};
