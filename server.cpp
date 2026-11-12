@@ -112,3 +112,4 @@ void processClient(int clientSock)
     }
 
     if (trailerCount != 4 || source.empty()) {
+        sendResponse(clientSock, 1,
