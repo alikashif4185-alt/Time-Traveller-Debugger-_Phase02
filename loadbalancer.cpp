@@ -87,3 +87,4 @@ public:
             Node* newNode = new Node(val);
             front =rear= newNode;
             count++;
+            return;
