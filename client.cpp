@@ -313,3 +313,4 @@ Snapshot* readSnapshotAt(TdbgReader& r, int32_t step)
 void initSession(DebugSession& s)
 {
     TdbgReader r;
+    s.active_flag = true;
