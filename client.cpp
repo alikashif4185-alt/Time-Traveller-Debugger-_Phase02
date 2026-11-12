@@ -477,3 +477,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
 }
 int main(int argc, char* argv[])
 {
+    // you get string LB_HOST and int LB_PORT = 0 in arguments of this main function. 
