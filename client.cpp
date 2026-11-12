@@ -295,3 +295,4 @@ Snapshot* readSnapshotAt(TdbgReader& r, int32_t step)
     if (step < 0 || step >= r.index.size()) {
         return nullptr;
     }
+
