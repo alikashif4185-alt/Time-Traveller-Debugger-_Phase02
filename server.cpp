@@ -248,3 +248,4 @@ int main(int argc, char* argv[])
             continue;
 
         processClient(clientSock);
+        close(clientSock);
