@@ -177,3 +177,4 @@ bool uploadSource(int sock, const char* sourcePath) {
     uint32_t crc = 0xFFFFFFFF;
 
     while (true)
+    {
