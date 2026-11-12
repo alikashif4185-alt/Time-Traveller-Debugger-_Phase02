@@ -95,3 +95,4 @@ void processClient(int clientSock)
         if (n < 0)
             return;
 
+        for (ssize_t i = 0; i < n; i++) {
