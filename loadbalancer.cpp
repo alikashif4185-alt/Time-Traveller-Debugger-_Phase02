@@ -14,3 +14,4 @@
 //   main thread (dispatcherLoop) -> takes ONE client out of the queue and serves it completely, then the next.
 //
 // How the server is started:
+//   system("./server 5001 &");
