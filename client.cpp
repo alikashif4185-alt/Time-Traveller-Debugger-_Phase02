@@ -374,3 +374,4 @@ void printSnapshot(int32_t step, int32_t totalSteps, const Snapshot& s)
 {
     cout << "Snapshot: " << step + 1 << "Total Steps: " << totalSteps << endl;
 }
+void printHelp() {
