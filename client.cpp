@@ -199,3 +199,4 @@ bool uploadSource(int sock, const char* sourcePath) {
     fclose(f);
 
     crc ^= 0xFFFFFFFF;
+    uint32_t checksum = htonl(crc);
