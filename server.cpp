@@ -167,3 +167,4 @@ void processClient(int clientSock)
         if (message.empty())
             message = "Phase 1 debugger failed";
 
+        sendResponse(clientSock, 1, makePayload(message));
