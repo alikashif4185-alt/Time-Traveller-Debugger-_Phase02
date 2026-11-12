@@ -87,3 +87,4 @@ void processClient(int clientSock)
 
     // Receive source file and its final 4-byte checksum.
     while (true) {
+        ssize_t n = recv(clientSock, buf, sizeof(buf), 0);
