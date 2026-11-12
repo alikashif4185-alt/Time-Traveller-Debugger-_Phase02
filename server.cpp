@@ -188,3 +188,4 @@ void processClient(int clientSock)
         sendResponse(clientSock, 1,
             makePayload("Generated session.tdbg is empty"));
         return;
+    }
