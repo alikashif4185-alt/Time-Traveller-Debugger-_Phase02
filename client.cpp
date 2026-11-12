@@ -350,3 +350,4 @@ bool showCurrent(DebugSession& s)
 bool moveBy(DebugSession& s, int32_t delta)
 {
 }
+bool cmdStart(DebugSession& s, const string& sourcePath)
