@@ -362,3 +362,4 @@ bool cmdStart(DebugSession& s, const string& sourcePath)
     // 5. Show step 1 with showCurrent(s).
 }
 bool cmdNext(DebugSession& s) {}
+bool cmdPrv(DebugSession& s) {}
