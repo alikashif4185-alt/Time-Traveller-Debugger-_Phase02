@@ -63,3 +63,4 @@ bool sendResponse(int sock, unsigned char status,
     if (!sendAll(sock, (char*)&status, 1))
         return false;
 
+    if (!payload.empty()) {
