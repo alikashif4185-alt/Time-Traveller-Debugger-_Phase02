@@ -298,3 +298,4 @@ Snapshot* readSnapshotAt(TdbgReader& r, int32_t step)
 
     FILE* f = fopen(TDBG_FILE, "rb");
     if (f == nullptr) {
+        return false;
