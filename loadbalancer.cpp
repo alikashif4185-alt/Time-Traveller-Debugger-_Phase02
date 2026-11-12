@@ -302,3 +302,4 @@ void dispatcherLoop()
     //   If we got a client: call relayOneClient(). The next client is taken out of the queue only after this one is finished.
 }
 
+void handler(int sg) {
