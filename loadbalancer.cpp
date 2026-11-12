@@ -192,3 +192,4 @@ int connectToServer(const char* host, int port)
     int sock = createListenSocket(port);
     if (sock == -1) {
         return -1;
+    }
