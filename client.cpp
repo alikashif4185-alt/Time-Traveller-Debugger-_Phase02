@@ -462,3 +462,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
         cout << "Unknown command!" << endl;
          printHelp();
          return false;
+    }
