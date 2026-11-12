@@ -218,3 +218,4 @@ int connectToServerWithWakeup(const char* host,int port)
 {
 
     int socket = connectToServer(host, port);
+    if (socket >= 0) {
