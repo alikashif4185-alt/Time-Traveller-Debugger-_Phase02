@@ -137,3 +137,4 @@ void processClient(int clientSock)
 
     if (!out.is_open()) {
         sendResponse(clientSock, 1,
+            makePayload("Cannot create source.bin"));
