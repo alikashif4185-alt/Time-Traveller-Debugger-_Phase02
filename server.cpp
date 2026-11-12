@@ -164,3 +164,4 @@ void processClient(int clientSock)
             (istreambuf_iterator<char>(err)),
             istreambuf_iterator<char>());
 
+        if (message.empty())
