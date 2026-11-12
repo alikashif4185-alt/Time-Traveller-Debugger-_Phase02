@@ -50,3 +50,4 @@ struct Variable
 };
 struct Frame
 {
+    string func_name;
