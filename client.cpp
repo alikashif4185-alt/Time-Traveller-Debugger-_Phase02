@@ -59,3 +59,4 @@ struct Frame
 };
 struct Snapshot
 {
+    Frame callStack[MAX_STACK_DEPTH];
