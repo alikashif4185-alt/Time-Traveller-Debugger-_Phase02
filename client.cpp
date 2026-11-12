@@ -482,3 +482,4 @@ int main(int argc, char* argv[])
     // DebugSession session; initSession(session);
     // Print a short welcome and the help text.
     //
+    // Infinite loop:
