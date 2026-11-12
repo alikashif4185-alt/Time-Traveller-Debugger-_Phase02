@@ -222,3 +222,4 @@ int connectToServerWithWakeup(const char* host,int port)
         return socket;
     }
 
+    bool serverflag = startServer(port);
