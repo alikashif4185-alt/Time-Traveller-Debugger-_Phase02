@@ -105,3 +105,4 @@ void processClient(int clientSock)
 
                 for (int j = 0; j < 3; j++)
                     trailer[j] = trailer[j + 1];
+
