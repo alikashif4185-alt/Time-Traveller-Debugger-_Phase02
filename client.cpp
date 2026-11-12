@@ -9,3 +9,4 @@
 //
 // How the pieces fit together:
 //   main loop -> readCommand -> runCommand
+//   start -> cmdStart()  -> requestDebugFile() (Part A) -> openTdbg() (Part B) -> shows step 1
