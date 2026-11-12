@@ -172,3 +172,4 @@ void processClient(int clientSock)
     }
 
     // Read generated debugging file.
+    ifstream file("session.tdbg", ios::binary);
