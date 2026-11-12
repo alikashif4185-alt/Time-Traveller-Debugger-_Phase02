@@ -290,3 +290,4 @@ void acceptLoop(int listenSock)
 }
 void dispatcherLoop()
 {
+    queueMutex.lock();
