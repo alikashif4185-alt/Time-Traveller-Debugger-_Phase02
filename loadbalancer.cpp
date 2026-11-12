@@ -293,3 +293,4 @@ void dispatcherLoop()
     queueMutex.lock();
     ClientInfo c=pendingClients.dequeue();
     queueMutex.unlock();
+    relayOneClient(c);
