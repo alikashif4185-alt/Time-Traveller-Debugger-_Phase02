@@ -51,3 +51,4 @@ int serverPort = 5001;
 
 
 // ---- Queue: here it holds client sockets (int). ----
+// Implement it yourself, do not use std::queue.
