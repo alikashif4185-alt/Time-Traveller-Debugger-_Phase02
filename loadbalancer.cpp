@@ -291,3 +291,4 @@ void acceptLoop(int listenSock)
 void dispatcherLoop()
 {
     queueMutex.lock();
+    ClientInfo c=pendingClients.dequeue();
