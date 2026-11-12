@@ -314,3 +314,4 @@ int main(int argc, char* argv[])
     // 3. Start a thread that runs acceptLoop(listenSock) and detach it.
     // 4. Call dispatcherLoop().
     return 0;
+}
