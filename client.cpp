@@ -268,3 +268,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
     // Status 1: collect the payload into outError. Status 0: write the payload to the file.
     // At the end call verify(). If it fails, delete the file, set outError to
     // "checksum mismatch, response corrupted" and return false.
+}
