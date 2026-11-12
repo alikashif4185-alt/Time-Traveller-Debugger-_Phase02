@@ -396,3 +396,4 @@ string thirdWord(string line) {
         if (line[i] == ' ')
             spcount++;
         i++;
+    }
