@@ -244,3 +244,4 @@ int connectToServerWithWakeup(const char* host,int port)
 // =============================================================================================
 
 
+void relayOneClient(ClientInfo& c)
