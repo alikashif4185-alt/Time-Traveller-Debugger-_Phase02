@@ -453,3 +453,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
         cmdJmpNext(s, 2);
     }
     else if (first == "help") {
+        printHelp();
