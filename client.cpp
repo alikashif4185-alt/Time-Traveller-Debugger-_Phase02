@@ -126,3 +126,4 @@ int connectToHost(const char* host, int port)
         return -1;
     }
     struct addrinfo hints {}, * result;
+
