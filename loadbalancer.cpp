@@ -140,3 +140,4 @@ bool sendAll(int sock, const char* buf, size_t n)
 }
 bool sendError(int sock, const string& message)
 {
+    // Reply format: [status: 1 byte][payload until close][checksum: 4 bytes].
