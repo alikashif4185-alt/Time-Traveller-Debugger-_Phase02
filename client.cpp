@@ -318,3 +318,4 @@ void initSession(DebugSession& s)
 }
 void closeSession(DebugSession& s)
 {
+    if (s.active_flag) {
