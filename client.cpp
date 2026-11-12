@@ -237,3 +237,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
     }
 
     unsigned char st = checker.data[0];
+
