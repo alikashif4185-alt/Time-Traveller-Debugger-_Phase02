@@ -244,3 +244,4 @@ int main(int argc, char* argv[])
     while (true) {
         int clientSock = accept(listenSock, nullptr, nullptr);
 
+        if (clientSock < 0)
