@@ -135,3 +135,4 @@ void processClient(int clientSock)
     // Save uploaded source in Phase 1 directory.
     ofstream out("source.bin", ios::binary);
 
+    if (!out.is_open()) {
