@@ -287,3 +287,4 @@ bool openTdbg(const char* path, TdbgReader& r)
 void closeTdbg(TdbgReader& r)
 {
     r.index = {};
+    r.header = {};
