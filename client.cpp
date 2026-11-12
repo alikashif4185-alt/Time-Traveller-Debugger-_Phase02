@@ -448,3 +448,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     }
     else if (first == "prv") {
         cmdPrv(s);
+    }
