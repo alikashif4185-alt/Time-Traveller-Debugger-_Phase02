@@ -77,3 +77,4 @@ struct TdbgReader
     TTDBHeader header;
     vector<int64_t> index;
 };
+struct DebugSession
