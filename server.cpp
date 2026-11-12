@@ -113,3 +113,4 @@ void processClient(int clientSock)
 
     if (trailerCount != 4 || source.empty()) {
         sendResponse(clientSock, 1,
+            makePayload("Invalid or empty upload"));
