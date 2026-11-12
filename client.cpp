@@ -140,3 +140,4 @@ int connectToHost(const char* host, int port)
     if (connect(socket_fd, result->ai_addr, result->ai_addrlen) == -1)
     {
         freeaddrinfo(result);
+        close(socket_fd);
