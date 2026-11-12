@@ -278,3 +278,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
 // =============================================================================================
 
 bool openTdbg(const char* path, TdbgReader& r)
+{
