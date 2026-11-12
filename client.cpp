@@ -383,3 +383,4 @@ void printHelp() {
     cout << "jmp <step>          => Jump to a specific snapshot\n";
     cout << "help                => Show available commands\n";
     cout << "shutdown            => Stop the debugger\n";
+}
