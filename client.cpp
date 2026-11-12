@@ -30,3 +30,4 @@ using namespace std;
 // ---- Constants ----
 const char* PROGRAM_NAME = "ttdb";
 const char* PROMPT = "ttdb> ";
+const int IO_BUFFER_SIZE = 64 * 1024;     // fixed buffer for streaming files to and from the socket
