@@ -42,3 +42,4 @@ const int MAX_VARS_PER_FRAME = 16;
 const int MAX_STACK_DEPTH = 64;
 
 
+// ---- Structs (same as Phase 1, so the file can be read back exactly as it was written) ----
