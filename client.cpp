@@ -119,3 +119,4 @@ bool sendAll(int sock, const char* buf, size_t n)
     // Use the flag MSG_NOSIGNAL. Return false if the connection fails.
 }
 
+int connectToHost(const char* host, int port)
