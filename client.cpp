@@ -425,3 +425,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     // 1. Split the line into words.
     int i = 0, j = 0;
     string first = "";
+    string rem = "";
