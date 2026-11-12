@@ -226,3 +226,4 @@ int main(int argc, char* argv[])
     address.sin_port = htons(port);
 
     if (bind(listenSock, (sockaddr*)&address,
+        sizeof(address)) < 0) {
