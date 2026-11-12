@@ -146,3 +146,4 @@ int connectToHost(const char* host, int port)
     freeaddrinfo(result);
 
     return s;
+    // Create a TCP socket and connect it to host:port.
