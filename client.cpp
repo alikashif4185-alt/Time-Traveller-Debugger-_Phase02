@@ -330,3 +330,4 @@ void closeSession(DebugSession& s)
 // PART D: THE COMMANDS
 // =============================================================================================
 
+void printSnapshot(int32_t step, int32_t totalSteps, const Snapshot& s); // defined in Part E
