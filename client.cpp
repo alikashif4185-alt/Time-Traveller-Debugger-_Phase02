@@ -317,3 +317,4 @@ void initSession(DebugSession& s)
     openTdbg(TDBG_FILE,r);
 }
 void closeSession(DebugSession& s)
+{
