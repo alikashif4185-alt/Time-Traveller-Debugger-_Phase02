@@ -125,3 +125,4 @@ int connectToHost(const char* host, int port)
     if (s == -1) {
         return -1;
     }
+    struct addrinfo hints {}, * result;
