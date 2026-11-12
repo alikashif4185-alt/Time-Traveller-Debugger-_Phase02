@@ -190,3 +190,4 @@ void processClient(int clientSock)
         return;
     }
 
+    // Status 0 means success.
