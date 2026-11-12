@@ -77,3 +77,4 @@ vector<unsigned char> makePayload(const string& message)
 }
 
 void processClient(int clientSock)
+{
