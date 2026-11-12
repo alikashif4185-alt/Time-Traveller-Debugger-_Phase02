@@ -268,3 +268,4 @@ void relayOneClient(ClientInfo& c)
 
 
 void acceptLoop(int listenSock)
+{
