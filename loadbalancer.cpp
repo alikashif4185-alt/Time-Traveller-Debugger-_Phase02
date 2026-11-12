@@ -39,3 +39,4 @@ using namespace std;
 
 
 // ---- Constants ----
+const char* SERVER_PATH = "./server";      // the program we start when the server is down
