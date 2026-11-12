@@ -65,3 +65,4 @@ struct Snapshot
 struct TTDBHeader
 {
     char magic[4]; // "TTDB"
+    int32_t version;
