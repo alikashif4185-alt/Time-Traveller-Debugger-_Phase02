@@ -100,3 +100,4 @@ public:
             throw runtime_error("No Clients in Queue!!");
             return -1;
         }
+        Node* save = front->next;
