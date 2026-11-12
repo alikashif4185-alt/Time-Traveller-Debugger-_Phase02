@@ -210,3 +210,4 @@ bool startServer(int port)
         return true;
     }
     return false;
+    //   Example: "./server 5001 &"
