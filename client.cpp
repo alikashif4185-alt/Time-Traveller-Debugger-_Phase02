@@ -269,3 +269,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
     // At the end call verify(). If it fails, delete the file, set outError to
     // "checksum mismatch, response corrupted" and return false.
 }
+
