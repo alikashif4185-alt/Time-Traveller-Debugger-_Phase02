@@ -356,3 +356,4 @@ bool cmdStart(DebugSession& s, const string& sourcePath)
     // 1. requestDebugFile with host and port, saving to TDBG_FILE.
     // 2. If it fails, print the error text and return false. Keep the old session as it was.
     // 3. Open the new file with openTdbg into a NEW local TdbgReader.
+    //    If that fails, print "server sent a damaged .tdbg file", keep the old session, return false.
