@@ -109,3 +109,4 @@ bool sendAll(int sock, const char* buf, size_t n)
     while (t <= n) {
         ssize_t sendbytes = send(sock, t + buf, t - n, MSG_NOSIGNAL);
         if (sendbytes <= 0) {
+            return false;
