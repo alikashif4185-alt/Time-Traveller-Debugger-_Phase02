@@ -61,3 +61,4 @@ bool sendResponse(int sock, unsigned char status,
     uint32_t checksum = htonl(crc);
 
     if (!sendAll(sock, (char*)&status, 1))
+        return false;
