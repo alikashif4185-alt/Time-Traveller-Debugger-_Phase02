@@ -120,3 +120,4 @@ bool sendAll(int sock, const char* buf, size_t n)
 }
 
 int connectToHost(const char* host, int port)
+{
