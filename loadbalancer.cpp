@@ -58,3 +58,4 @@ class Queue
     struct Node
     {
         T data;
+        Node* next;
