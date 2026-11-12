@@ -172,3 +172,4 @@ int createListenSocket(int port)
         exit(EXIT_FAILURE);
     }
 
+    // 4. Start listening for incoming connections
