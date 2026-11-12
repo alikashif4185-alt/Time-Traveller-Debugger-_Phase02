@@ -64,3 +64,4 @@ class Queue
     int count;
 
 
+public:
