@@ -193,3 +193,4 @@ int connectToServer(const char* host, int port)
     if (sock == -1) {
         return -1;
     }
+    
