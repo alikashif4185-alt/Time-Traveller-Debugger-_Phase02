@@ -90,3 +90,4 @@ void processClient(int clientSock)
         ssize_t n = recv(clientSock, buf, sizeof(buf), 0);
 
         if (n == 0)
+            break;
