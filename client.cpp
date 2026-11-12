@@ -245,3 +245,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
         return true;
     }
     if (st == 0) {
+        FILE* f = fopen(outTdbgPath, "wb");
