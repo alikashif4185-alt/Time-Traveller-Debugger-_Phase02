@@ -145,3 +145,4 @@ void processClient(int clientSock)
     out.close();
 
     if (!out) {
+        sendResponse(clientSock, 1,
