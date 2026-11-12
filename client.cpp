@@ -247,3 +247,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
     if (st == 0) {
         FILE* f = fopen(outTdbgPath, "wb");
         if (f == nullptr)
+            return false;
