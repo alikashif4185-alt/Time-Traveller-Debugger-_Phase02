@@ -76,3 +76,4 @@ struct TdbgReader
     ssize_t file_index;
     TTDBHeader header;
     vector<int64_t> index;
+};
