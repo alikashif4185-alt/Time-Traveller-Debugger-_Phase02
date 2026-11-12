@@ -399,3 +399,4 @@ string thirdWord(string line) {
     }
     while (line[i]!=' ') {
         st += line[i];
+        i++;
