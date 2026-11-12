@@ -135,3 +135,4 @@ bool sendAll(int sock, const char* buf, size_t n)
 {
 
     // Reply format: [status: 1 byte][sending_material][checksum: 4 bytes].
+    // send() may send fewer bytes than asked for, so keep calling it until all n bytes are sent.
