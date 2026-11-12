@@ -266,3 +266,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
     // Reply on the wire: [status][payload][CRC-32]. The CRC covers the status byte too.
     // Feed every received byte (status included) to a TrailerChecker.
     // Status 1: collect the payload into outError. Status 0: write the payload to the file.
+    // At the end call verify(). If it fails, delete the file, set outError to
