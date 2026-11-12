@@ -284,3 +284,4 @@ void acceptLoop(int listenSock)
     // else
     // Lock queueMutex.
     //   close the client, and go on.
+    //   Otherwise enqueue the client socket.
