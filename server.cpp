@@ -89,3 +89,4 @@ void processClient(int clientSock)
     while (true) {
         ssize_t n = recv(clientSock, buf, sizeof(buf), 0);
 
+        if (n == 0)
