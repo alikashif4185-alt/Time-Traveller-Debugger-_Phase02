@@ -105,3 +105,4 @@ public:
         front = front->next;
         count--;
         return temp->data;
+    }
