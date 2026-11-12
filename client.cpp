@@ -72,3 +72,4 @@ struct TTDBHeader
 
 // ---- Structs only the client needs ----
 struct TdbgReader
+{
