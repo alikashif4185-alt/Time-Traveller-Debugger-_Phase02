@@ -88,3 +88,4 @@ public:
             front =rear= newNode;
             count++;
             return;
+        }
