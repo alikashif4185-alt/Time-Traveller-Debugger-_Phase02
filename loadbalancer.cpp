@@ -111,3 +111,4 @@ public:
         return count == 0;
     }
     int size()
+    {
