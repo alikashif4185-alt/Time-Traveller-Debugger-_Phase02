@@ -19,3 +19,4 @@
 #include <cstdlib>
 #include <cstring>
 #include <unistd.h>
+#include <signal.h>
