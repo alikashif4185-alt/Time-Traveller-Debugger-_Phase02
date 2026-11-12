@@ -19,3 +19,4 @@
 //
 //
 // What the server program must do (the load balancer depends on this):
+//   - it takes its port as the first argument, for example: ./server 5001
