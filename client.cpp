@@ -395,3 +395,4 @@ string thirdWord(string line) {
     while (spcount < 2) {
         if (line[i] == ' ')
             spcount++;
+        i++;
