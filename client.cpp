@@ -428,3 +428,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     string rem = "";
     while (line[i] != ' ') {
         first += line[i];
+        i++;
