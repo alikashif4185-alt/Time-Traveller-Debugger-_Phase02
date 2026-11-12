@@ -229,3 +229,4 @@ int main(int argc, char* argv[])
         sizeof(address)) < 0) {
         perror("bind");
         close(listenSock);
+        return 1;
