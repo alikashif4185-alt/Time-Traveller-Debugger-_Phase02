@@ -209,3 +209,4 @@ bool uploadSource(int sock, const char* sourcePath) {
     return true;
     // When the file is finished, call shutdown(sock, SHUT_WR). This is how the server knows the string is complete.
     // Return false if the file cannot be opened or any send fails.
+}
