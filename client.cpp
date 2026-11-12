@@ -134,3 +134,4 @@ int connectToHost(const char* host, int port)
 
     if (getaddrinfo(host, portStr, &hints, &result) != 0)
     {
+        close(socket_fd);
