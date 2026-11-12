@@ -227,3 +227,4 @@ int main(int argc, char* argv[])
 
     if (bind(listenSock, (sockaddr*)&address,
         sizeof(address)) < 0) {
+        perror("bind");
