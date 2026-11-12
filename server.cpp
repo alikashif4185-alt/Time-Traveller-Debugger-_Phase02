@@ -127,3 +127,4 @@ void processClient(int clientSock)
     memcpy(&received, trailer, 4);
 
     if (crc != ntohl(received)) {
+        sendResponse(clientSock, 1,
