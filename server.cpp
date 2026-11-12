@@ -212,3 +212,4 @@ int main(int argc, char* argv[])
     int listenSock = socket(AF_INET, SOCK_STREAM, 0);
 
     if (listenSock < 0) {
+        perror("socket");
