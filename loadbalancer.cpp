@@ -179,3 +179,4 @@ int createListenSocket(int port)
         exit(EXIT_FAILURE);
     }
 
+    return listen_fd;
