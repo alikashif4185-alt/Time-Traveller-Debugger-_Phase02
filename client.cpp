@@ -47,3 +47,4 @@ struct Variable
 {
     string name;
     int32_t value;
+};
