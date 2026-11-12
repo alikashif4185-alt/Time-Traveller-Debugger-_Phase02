@@ -360,3 +360,4 @@ bool cmdStart(DebugSession& s, const string& sourcePath)
     // 4. Only now close the old reader (if s.active), then put the new reader into s,
     //    set s.currentStep = 0 and s.active = true.
     // 5. Show step 1 with showCurrent(s).
+}
