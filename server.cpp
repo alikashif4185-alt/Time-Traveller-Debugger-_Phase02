@@ -192,3 +192,4 @@ void processClient(int clientSock)
 
     // Status 0 means success.
     sendResponse(clientSock, 0, debugData);
+}
