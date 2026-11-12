@@ -342,3 +342,4 @@ bool showCurrent(DebugSession& s)
         return false;
     }
     printSnapshot(s.currentStep,)
+
