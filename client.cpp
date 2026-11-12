@@ -141,3 +141,4 @@ int connectToHost(const char* host, int port)
     {
         freeaddrinfo(result);
         close(socket_fd);
+        return -1;
