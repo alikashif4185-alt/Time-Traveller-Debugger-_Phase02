@@ -450,3 +450,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
         cmdPrv(s);
     }
     else if ((second == "next" || second == "prv")) {
+        cmdJmpNext(s, 2);
