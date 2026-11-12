@@ -53,3 +53,4 @@ bool sendResponse(int sock, unsigned char status,
 
     crc = crc32Update(crc, &status, 1);
 
+    if (!payload.empty())
