@@ -152,3 +152,4 @@ void processClient(int clientSock)
 
     // Remove previous output so stale files cannot be returned.
     remove("session.tdbg");
+    remove("resolve.bin");
