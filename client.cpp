@@ -429,3 +429,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     while (line[i] != ' ') {
         first += line[i];
         i++;
+    }
