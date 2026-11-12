@@ -175,3 +175,4 @@ int createListenSocket(int port)
     // 4. Start listening for incoming connections
     if (listen(listen_fd, LISTEN_BACKLOG) < 0) {
         perror("Listen failed");
+        close(listen_fd);
