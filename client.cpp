@@ -341,3 +341,4 @@ bool showCurrent(DebugSession& s)
         cout << "damaged .tdgb file\n";
         return false;
     }
+    printSnapshot(s.currentStep,)
