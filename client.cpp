@@ -21,3 +21,4 @@
 #include <unistd.h>
 #include <signal.h>
 #include <vector>
+#include <sys/socket.h>
