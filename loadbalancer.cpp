@@ -68,3 +68,4 @@ public:
     // Implement these functions:
     Queue()
     {
+        front = rear = NULL;
