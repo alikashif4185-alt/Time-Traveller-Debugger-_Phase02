@@ -206,3 +206,4 @@ bool uploadSource(int sock, const char* sourcePath) {
     if (shutdown(sock, SHUT_WR) < 0)
         return false;
 
+    return true;
