@@ -77,3 +77,4 @@ public:
             dequeue();
         }
     }
+    void enqueue(const T& val)
