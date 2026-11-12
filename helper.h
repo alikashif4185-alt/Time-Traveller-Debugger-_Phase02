@@ -8,3 +8,4 @@
 struct FuncEntry
 {
     string funcName;
+    int64_t byteOffsetInResolveBin; // where this function's FUNC header record sits
