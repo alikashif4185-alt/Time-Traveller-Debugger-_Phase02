@@ -123,3 +123,4 @@ int connectToHost(const char* host, int port)
 {
     int s = socket(AF_INET, SOCK_STREAM, 0);
     if (s == -1) {
+        return -1;
