@@ -66,3 +66,4 @@ struct TTDBHeader
 {
     char magic[4]; // "TTDB"
     int32_t version;
+    int32_t stepCount;
