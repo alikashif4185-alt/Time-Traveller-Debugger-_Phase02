@@ -106,3 +106,4 @@ public:
         count--;
         return temp->data;
     }
+    bool isEmpty()
