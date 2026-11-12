@@ -334,3 +334,4 @@ void printSnapshot(int32_t step, int32_t totalSteps, const Snapshot& s); // defi
 
 bool showCurrent(DebugSession& s)
 {
+    
