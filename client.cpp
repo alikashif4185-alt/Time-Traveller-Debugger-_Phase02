@@ -444,3 +444,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
         cmdStart(s, rem);
     }
     else if (first == "next") {
+        cmdNext(s);
