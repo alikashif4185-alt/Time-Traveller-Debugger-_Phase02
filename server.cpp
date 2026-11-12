@@ -185,3 +185,4 @@ void processClient(int clientSock)
         istreambuf_iterator<char>());
 
     if (debugData.empty()) {
+        sendResponse(clientSock, 1,
