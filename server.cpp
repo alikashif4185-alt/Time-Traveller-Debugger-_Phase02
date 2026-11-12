@@ -155,3 +155,4 @@ void processClient(int clientSock)
     remove("resolve.bin");
     remove("backend_error.txt");
 
+    // Run the existing Phase 1 debugger.
