@@ -92,3 +92,4 @@ bool recvAll(int sock, char* buf, size_t n)
 {
     size_t t = 0;
     while (t <= n) {
+        ssize_t bytes = recv(sock, buf + t, n - t, 0);
