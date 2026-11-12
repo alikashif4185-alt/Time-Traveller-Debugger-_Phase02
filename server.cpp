@@ -220,3 +220,4 @@ int main(int argc, char* argv[])
     setsockopt(listenSock, SOL_SOCKET, SO_REUSEADDR,
         &opt, sizeof(opt));
 
+    sockaddr_in address{};
