@@ -50,3 +50,4 @@ string serverHost = "127.0.0.0";
 int serverPort = 5001;
 
 
+// ---- Queue: here it holds client sockets (int). ----
