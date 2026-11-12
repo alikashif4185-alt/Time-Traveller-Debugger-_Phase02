@@ -234,3 +234,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
         outError = "checksum mismatch, response corrupted";
 
         return false;
+    }
