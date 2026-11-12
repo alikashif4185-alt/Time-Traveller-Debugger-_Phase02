@@ -218,3 +218,4 @@ int main(int argc, char* argv[])
 
     int opt = 1;
     setsockopt(listenSock, SOL_SOCKET, SO_REUSEADDR,
+        &opt, sizeof(opt));
