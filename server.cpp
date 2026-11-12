@@ -99,3 +99,4 @@ void processClient(int clientSock)
             if (trailerCount < 4) {
                 trailer[trailerCount++] =
                     (unsigned char)buf[i];
+            }
