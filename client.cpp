@@ -28,3 +28,4 @@
 using namespace std;
 
 // ---- Constants ----
+const char* PROGRAM_NAME = "ttdb";
