@@ -44,3 +44,4 @@ bool sendAll(int sock, const char* buf, size_t n)
     }
 
     return true;
+}
