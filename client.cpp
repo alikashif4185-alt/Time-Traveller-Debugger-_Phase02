@@ -271,3 +271,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
 }
 
 // =============================================================================================
+// PART B: READING THE .tdbg FILE
