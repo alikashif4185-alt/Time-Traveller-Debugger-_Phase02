@@ -256,3 +256,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
             remove(outTdbgPath);
             return false;
         }
+        return true;
