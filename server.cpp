@@ -139,3 +139,4 @@ void processClient(int clientSock)
         sendResponse(clientSock, 1,
             makePayload("Cannot create source.bin"));
         return;
+    }
