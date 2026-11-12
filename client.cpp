@@ -260,3 +260,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
     }
 
     remove(outTdbgPath);
+    outError = "invalid response status";
