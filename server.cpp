@@ -72,3 +72,4 @@ bool sendResponse(int sock, unsigned char status,
 }
 
 vector<unsigned char> makePayload(const string& message)
+{
