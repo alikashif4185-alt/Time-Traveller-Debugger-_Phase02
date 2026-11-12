@@ -421,3 +421,4 @@ string secondWord(string line) {
     }
     return st;
 }
+bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
