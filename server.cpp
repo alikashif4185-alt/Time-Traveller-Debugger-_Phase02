@@ -115,3 +115,4 @@ void processClient(int clientSock)
         sendResponse(clientSock, 1,
             makePayload("Invalid or empty upload"));
         return;
+    }
