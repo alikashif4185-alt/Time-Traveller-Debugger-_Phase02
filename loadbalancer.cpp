@@ -84,3 +84,4 @@ public:
             return;
         }
         if (count == 0) {
+            Node* newNode = new Node(val);
