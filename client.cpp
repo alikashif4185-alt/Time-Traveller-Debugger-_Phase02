@@ -225,3 +225,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
             if (errno == EINTR)
                 continue;
             return false;
+        }
