@@ -417,3 +417,4 @@ string secondWord(string line) {
             spcount++;
         }
         i++;
+        st += line[i];
