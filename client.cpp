@@ -55,3 +55,4 @@ struct Frame
     Variable argv[MAX_VARS_PER_FRAME];
     int32_t returnLine;
     Variable locals[MAX_VARS_PER_FRAME];
+    int32_t localCount;
