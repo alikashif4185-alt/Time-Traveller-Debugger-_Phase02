@@ -240,3 +240,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
 
     size_t size = checker.payloadSize() - 1;
 
+    if (st == 1) {
