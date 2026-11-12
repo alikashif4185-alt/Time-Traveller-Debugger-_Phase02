@@ -178,3 +178,4 @@ void processClient(int clientSock)
         sendResponse(clientSock, 1,
             makePayload("session.tdbg was not generated"));
         return;
+    }
