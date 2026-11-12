@@ -251,3 +251,4 @@ void relayOneClient(ClientInfo& c)
         cout << "Backend server failed to start" << endl;
     }
     r
+    // 1. serverSock = connectToServerWithWakeup().
