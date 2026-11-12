@@ -70,3 +70,4 @@ struct TTDBHeader
     int64_t indexOffset;
 };
 
+// ---- Structs only the client needs ----
