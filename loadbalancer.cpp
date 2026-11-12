@@ -94,3 +94,4 @@ public:
         count++;
         
     }
+    T dequeue()
