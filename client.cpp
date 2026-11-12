@@ -476,3 +476,4 @@ bool runCommand(DebugSession& s, const string& line, bool& quitRequested) {
     // 4. For anything else, or a wrong number of words, print "unknown command" and the help text, and return false.
 }
 int main(int argc, char* argv[])
+{
