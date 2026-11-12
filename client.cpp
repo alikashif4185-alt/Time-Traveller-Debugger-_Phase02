@@ -46,3 +46,4 @@ const int MAX_STACK_DEPTH = 64;
 struct Variable
 {
     string name;
+    int32_t value;
