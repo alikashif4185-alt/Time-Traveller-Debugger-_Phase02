@@ -227,3 +227,4 @@ int connectToServerWithWakeup(const char* host,int port)
         return -1;
     }
     int i = 0;
+    while (i < STARTUP_MAX_ATTEMPTS) {
