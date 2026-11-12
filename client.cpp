@@ -145,3 +145,4 @@ int connectToHost(const char* host, int port)
     }
     freeaddrinfo(result);
 
+    return s;
