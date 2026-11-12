@@ -238,3 +238,4 @@ bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
 
     unsigned char st = checker.data[0];
 
+    size_t size = checker.payloadSize() - 1;
