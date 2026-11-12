@@ -119,3 +119,4 @@ void processClient(int clientSock)
 
     // Verify uploaded source checksum.
     uint32_t crc = crc32Update(
+        0xFFFFFFFF, source.data(), source.size());
