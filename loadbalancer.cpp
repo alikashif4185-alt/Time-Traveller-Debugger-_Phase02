@@ -66,3 +66,4 @@ class Queue
 
 public:
     // Implement these functions:
+    Queue()
