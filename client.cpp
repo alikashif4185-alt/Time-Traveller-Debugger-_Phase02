@@ -211,3 +211,4 @@ bool uploadSource(int sock, const char* sourcePath) {
     // Return false if the file cannot be opened or any send fails.
 }
 bool receiveResponse(int sock, const char* outTdbgPath, string& outError) {
+    TrailerChecker checker;
