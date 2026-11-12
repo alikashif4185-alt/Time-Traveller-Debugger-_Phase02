@@ -38,3 +38,4 @@ int LB_PORT = 5000;
 
 // These two must be the same as in Phase 1
 
+const int MAX_VARS_PER_FRAME = 16;
