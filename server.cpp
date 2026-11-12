@@ -175,3 +175,4 @@ void processClient(int clientSock)
     ifstream file("session.tdbg", ios::binary);
 
     if (!file.is_open()) {
+        sendResponse(clientSock, 1,
