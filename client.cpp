@@ -83,3 +83,4 @@ struct DebugSession
     TdbgReader reader;   // the .tdbg file stays open for the whole session
     int64_t currentStep;
 };
+
